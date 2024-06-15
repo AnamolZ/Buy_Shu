@@ -1,19 +1,15 @@
 <?php
-// Database configuration
 $servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "buy_shu";
 
-// Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Fetch trader information
 $trader_id = isset($_GET['trader_id']) ? (int)$_GET['trader_id'] : 0;
 $trader_sql = "SELECT TRADER_ID, TRADER_NAME, TRADER_PASSWORD, TRADER_EMAIL FROM TRADER WHERE TRADER_ID = ?";
 $stmt = $conn->prepare($trader_sql);
