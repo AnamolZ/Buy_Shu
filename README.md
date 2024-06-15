@@ -36,7 +36,7 @@
 
 The database schema for Buy_Shu is designed to efficiently manage and organize data related to customers, products, orders, and transactions.
 
-![Database Schema](uploads/EERD.png)
+![Database Schema](ERD'S/EERD.png)
 
 - **CUSTOMER**: Stores customer information.
 - **PRODUCT**: Contains details of available products.
