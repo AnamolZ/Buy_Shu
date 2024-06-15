@@ -1,19 +1,8 @@
 # Buy_Shu E-Commerce Site
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Database Schema](#database-schema)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
 **Buy_Shu** is a comprehensive e-commerce platform designed to offer a seamless online shopping experience. The platform provides a wide range of products, including fresh seafood, fruits, baked goods, and more. Our aim is to deliver premium quality products with convenience and security to our customers.
+
+![Home Page](uploads/Home.png)
 
 ## Features
 
@@ -53,7 +42,7 @@ To run the Buy_Shu project locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/Buy_Shu.git
+    git clone https://github.com/AnamolZ/Buy_Shu.git
     ```
 
 2. **Navigate to the project directory:**
@@ -104,7 +93,7 @@ We welcome contributions to enhance the Buy_Shu platform. To contribute, follow 
 
 2. **Clone your forked repository:**
     ```bash
-    git clone https://github.com/your-username/Buy_Shu.git
+    git clone https://github.com/AnamolZ/Buy_Shu.git
     ```
 
 3. **Create a new branch:**
@@ -130,5 +119,3 @@ We welcome contributions to enhance the Buy_Shu platform. To contribute, follow 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-Thank you for using Buy_Shu. For any queries or support, please contact us at anmoldkl971@gmail.com. Happy Shopping!
