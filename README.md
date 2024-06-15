@@ -30,7 +30,7 @@
 - **Backend**: PHP
 - **Database**: MySQL (managed with MySQL Workbench)
 - **Version Control**: Git
-- **Hosting**: Any compatible web server (e.g., Apache, Nginx)
+- **Hosting**: A compatible web server. i.e. -> Apache
 
 ## Database Schema
 
@@ -69,8 +69,8 @@ To run the Buy_Shu project locally, follow these steps:
     - Update the database connection details in the PHP configuration file (`config/database.php`).
 
 5. **Start the server:**
-    - Ensure your web server (e.g., Apache, Nginx) is running.
-    - Place the project files in the web server's root directory (e.g., `htdocs` for XAMPP, `www` for WAMP).
+    - Ensure your web server Apache is running.
+    - Place the project files in the web server's root directory (`htdocs` for XAMPP).
 
 6. **Visit the site:**
     Open your browser and go to `http://localhost/Buy_Shu`.
@@ -131,4 +131,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Thank you for using Buy_Shu. For any queries or support, please contact us at support@buy_shu.com. Happy Shopping!
+Thank you for using Buy_Shu. For any queries or support, please contact us at anmoldkl971@gmail.com. Happy Shopping!
