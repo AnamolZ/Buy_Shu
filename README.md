@@ -36,16 +36,6 @@ The database schema for Buy_Shu is designed to efficiently manage and organize d
 - **ORDER_DETAIL**: Detailed information about each order.
 - **PAYMENT**: Manages payment transactions.
 
-## Usecase Diagram
-
-The use case diagram outlines all the necessary features for Buy_Shu, making it easier for customers to browse products, place orders, and manage transactions on our site.
-
-![Customer Diagram](Usecase/Customer_UseCase.png)
-
-Trader is another user interating with site for selling their respective goods to customer.
-
-![Trader Diagram](Usecase/Trader_UseCase.png)
-
 ## Installation
 
 To run the Buy_Shu project locally, follow these steps:
@@ -64,11 +54,14 @@ To run the Buy_Shu project locally, follow these steps:
     - Open MySQL Workbench and create a new database.
     - Import the provided SQL script (`database/schema.sql`) to set up the database schema.
 
-4. **Start the server:**
+4. **Configure the database connection:**
+    - Update the database connection details in the PHP configuration file (`config/database.php`).
+
+5. **Start the server:**
     - Ensure your web server Apache is running.
     - Place the project files in the web server's root directory (`htdocs` for XAMPP).
 
-5. **Visit the site:**
+6. **Visit the site:**
     Open your browser and go to `http://localhost/Buy_Shu`.
 
 ## Usage
